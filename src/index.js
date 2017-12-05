@@ -1,35 +1,13 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import formiojs from 'formiojs';
 
 // import store from './app/store';
-import Main from './app/containers/Main.vue';
-import Home from './app/containers/Home.vue';
-import Auth from './app/containers/Auth.vue';
+import router from './app/router';
 import './index.scss';
+import config from './config';
 
-Vue.use(VueRouter);
-
-const router = new VueRouter({
-  mode: 'history',
-  routes: [
-    {
-      path: '/',
-      component: Main,
-      children: [
-        {
-          path: '',
-          component: Home
-        },
-        {
-          path: 'auth',
-          components: {
-            default: Auth
-          }
-        }
-      ]
-    }
-  ]
-});
+formiojs.setProjectUrl(config.projectUrl);
+formiojs.setBaseUrl(config.apiUrl);
 
 export default new Vue({
   el: '#root',

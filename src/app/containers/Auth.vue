@@ -6,7 +6,7 @@
           Login
         </div>
         <div class="panel-body">
-          <formio :src="loginForm" />
+          <formio :src="loginForm" v-on:submit="authSubmit" />
         </div>
       </div>
     </div>
@@ -16,7 +16,7 @@
           Register
         </div>
         <div class="panel-body">
-          <formio :src="registerForm" />
+          <formio :src="registerForm" v-on:submit="authSubmit" />
         </div>
       </div>
     </div>
@@ -25,15 +25,22 @@
 
 <script>
 import { Formio } from 'vue-formio';
+import config from '../../config';
 
 export default {
   name: 'Auth',
   data: () => ({
-    loginForm: "https://examples.form.io/user/login",
-    registerForm: "https://examples.form.io/user/register"
+    loginForm: config.forms.login,
+    registerForm: config.forms.register
   }),
   components: {
     'formio': Formio
+  },
+  methods: {
+    authSubmit: function(submission) {
+      console.log(submission);
+      this.$router.push('/');
+    }
   }
 };
 </script>

@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <formio src="https://examples.form.io/textfield" v-on:submit="onSubmit"></formio>
+    <formio src="https://examples.form.io/example"></formio>
   </div>
 </template>
 
@@ -39,11 +39,6 @@ export default {
   name: 'Home',
   components: {
     'formio': Formio
-  },
-  methods: {
-    onSubmit: function(submission) {
-      console.log(submission);
-    }
   }
 };
 </script>
