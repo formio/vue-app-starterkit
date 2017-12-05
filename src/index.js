@@ -1,8 +1,12 @@
 import Vue from 'vue';
-import Main from './app/Main.vue';
-
-import './index.scss';
 import VueRouter from 'vue-router';
+
+// import store from './app/store';
+import Main from './app/containers/Main.vue';
+import Home from './app/containers/Home.vue';
+import Auth from './app/containers/Auth.vue';
+import './index.scss';
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -10,9 +14,19 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      components: {
-        default: Main
-      }
+      component: Main,
+      children: [
+        {
+          path: '',
+          component: Home
+        },
+        {
+          path: 'auth',
+          components: {
+            default: Auth
+          }
+        }
+      ]
     }
   ]
 });
