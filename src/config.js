@@ -1,5 +1,5 @@
-const PROJECT_URL = 'https://example.form.io';
-const API_URL = 'https://api.form.io';
+const PROJECT_URL = 'http://localhost:3000/rjxycmnsgkfqere';
+const API_URL = 'http://localhost:3000';
 
 export default {
   project: PROJECT_URL,
