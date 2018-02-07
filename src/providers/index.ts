@@ -1,9 +1,11 @@
-export interface ProviderConfig {
-  name: string;
-}
+import { Provider } from './Provider';
 
-export type ProviderList = [ProviderConfig];
+let Providers: Provider[];
 
-const Providers: ProviderList = [{name: 'test'}];
+const myproviders = [{name: 'test'}];
+
+Providers = myproviders.map((provider) => new Provider(provider));
+
+Providers.push(new Provider({name: 'test'}));
 
 export default Providers;
