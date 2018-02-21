@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES5",
     "module": "es2015",
     "strict": true,
     "jsx": "preserve",
@@ -8,6 +8,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "allowJs": true,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [

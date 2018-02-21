@@ -24,33 +24,6 @@
 </template>
 
 <script>
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-import { Formio } from 'vue-formio';
 import config from '../../config';
 
 export default {
@@ -59,9 +32,6 @@ export default {
     loginForm: config.forms.login,
     registerForm: config.forms.register,
   }),
-  components: {
-    formio: Formio,
-  },
   methods: {
     authSubmit(submission) {
       this.$router.push('/');

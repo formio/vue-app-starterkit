@@ -1,11 +1,3 @@
-import { Provider } from './Provider';
+import test from './resource';
 
-let Providers: Provider[];
-
-const myproviders = [{name: 'test'}];
-
-Providers = myproviders.map((provider) => new Provider(provider));
-
-Providers.push(new Provider({name: 'test'}));
-
-export default Providers;
+export default [test];

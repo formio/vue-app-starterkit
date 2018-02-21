@@ -2,14 +2,14 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import { registerProviders } from './formio';
+import formio from './formio';
 import './registerServiceWorker';
 import './index.scss';
 
 Vue.config.productionTip = false;
 
-// Register all form.io providers.
-registerProviders(router, store);
+// This will add routes and store for each formio provider.
+formio(store, router);
 
 new Vue({
   router,

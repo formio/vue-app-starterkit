@@ -9,6 +9,7 @@
           <router-link to="/" role="navigation button">
             <span class="glyphicon glyphicon-home" /> Home
           </router-link>
+          <router-link to="/test" role="navigation link">Test</router-link>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
