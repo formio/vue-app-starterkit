@@ -1,29 +1,3 @@
-# vue-app-starterkit-test
+# Form.io Vue Starterkit
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This starterkit is currently under active development as it is being rebuilt with more features and vue class components. Please check back shortly to see when it is done.
