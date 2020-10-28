@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Form src="https://examples.form.io/example" />
+    <Form :options="options" src="https://examples.form.io/example" />
   </div>
 </template>
 
@@ -11,6 +11,11 @@ import { Form } from 'vue-formio';
 @Component({
   components: {
     Form,
+  },
+  data() {
+    return {
+      options: {},
+    };
   },
 })
 export default class Home extends Vue {}

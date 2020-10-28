@@ -8,23 +8,24 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.4.1",
-    "bootswatch": "^3.4.1",
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10",
-    "vue-class-component": "^7.0.2",
-    "vue-formio": "^4.0.0",
+    "bootstrap": "^4.5.3",
+    "bootswatch": "^4.5.3",
+    "core-js": "^3.6.5",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-formio": "^4.0.7",
     "vue-property-decorator": "^8.1.0",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.4.8",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-typescript": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.1.0",
-    "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-typescript": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "sass": "1.27.0",
+    "sass-loader": "^10.0.4",
+    "typescript": "^4.0.5",
+    "vue-template-compiler": "^2.6.12"
   }
 }
