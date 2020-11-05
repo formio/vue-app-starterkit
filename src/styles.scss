@@ -1,7 +1,9 @@
-$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
-@import "../node_modules/bootswatch/yeti/_variables.scss";
-@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "../node_modules/bootswatch/yeti/_bootswatch.scss";
+@import "../node_modules/bootswatch/dist/yeti/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootswatch/dist/yeti/bootswatch";
+$fa-font-path: '../node_modules/font-awesome/fonts';
+@import '../node_modules/font-awesome/scss/font-awesome';
+@import '../node_modules/formiojs/dist/formio.full.css';
 
 .footer {
   margin-top: 10px;
