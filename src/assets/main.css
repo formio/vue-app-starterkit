@@ -1,0 +1,27 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import '@formio/js/dist/formio.full.min.css';
+
+.nav-link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.formio-brand {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.formio-brand > * {
+    margin-right: 5px;
+}
+
+.navbar-brand a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.spacer {
+    margin: 0.5rem 0;
+    line-height: 0;
+}
