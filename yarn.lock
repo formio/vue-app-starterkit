@@ -523,15 +523,10 @@
   resolved "https://registry.yarnpkg.com/@formio/vanilla-text-mask/-/vanilla-text-mask-5.1.1-formio.1.tgz#f53fc7f4cb37c6ae38f2857488055e781e5adba9"
   integrity sha512-rYBlvIPMNUd6sAaduOaiIwI4vfTAjHDRonko2qJn2RP1O//TQ7rcFIPYVYePJZ4OtOpwHiHAvAIh79McphZotQ==
 
-"@formio/vue@..\\vue\\formio-vue-v6.0.0-rc.1.tgz":
+"@formio/vue@6.0.0-rc.1":
   version "6.0.0-rc.1"
-  resolved "..\\vue\\formio-vue-v6.0.0-rc.1.tgz#549980a8c4d1bce98ab1744117d9c0aeb50d1dd3"
-  dependencies:
-    "@ungap/structured-clone" "^1.2.0"
-
-"@formio/vue@..\\vue\\formio-vue-v6.0.0-rc.7.tgz":
-  version "6.0.0-rc.7"
-  resolved "..\\vue\\formio-vue-v6.0.0-rc.7.tgz#dd11f69c06e3bb7e751715bb8aa26526339fbc3a"
+  resolved "https://registry.yarnpkg.com/@formio/vue/-/vue-6.0.0-rc.1.tgz#7f4461a6bc70252984cad64079f0cb80c4c78499"
+  integrity sha512-vNGWoQZnKmBordknwhFYtgDdb4whAooFTyS9fwsBNtzzXmJz0njxMeEEMy75CIezwvoucNEIR2ZlrdrVmSLPGA==
   dependencies:
     "@ungap/structured-clone" "^1.2.0"
 
@@ -2002,9 +1997,9 @@ js-tokens@^4.0.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
-  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.1.tgz#854c292467705b699476e1a2decc0c8a3458806b"
+  integrity sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==
   dependencies:
     argparse "^2.0.1"
 
