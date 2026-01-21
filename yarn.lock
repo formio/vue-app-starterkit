@@ -523,15 +523,10 @@
   resolved "https://registry.yarnpkg.com/@formio/vanilla-text-mask/-/vanilla-text-mask-5.1.1-formio.1.tgz#f53fc7f4cb37c6ae38f2857488055e781e5adba9"
   integrity sha512-rYBlvIPMNUd6sAaduOaiIwI4vfTAjHDRonko2qJn2RP1O//TQ7rcFIPYVYePJZ4OtOpwHiHAvAIh79McphZotQ==
 
-"@formio/vue@..\\vue\\formio-vue-v6.0.0-rc.1.tgz":
+"@formio/vue@6.0.0-rc.1":
   version "6.0.0-rc.1"
-  resolved "..\\vue\\formio-vue-v6.0.0-rc.1.tgz#549980a8c4d1bce98ab1744117d9c0aeb50d1dd3"
-  dependencies:
-    "@ungap/structured-clone" "^1.2.0"
-
-"@formio/vue@..\\vue\\formio-vue-v6.0.0-rc.7.tgz":
-  version "6.0.0-rc.7"
-  resolved "..\\vue\\formio-vue-v6.0.0-rc.7.tgz#dd11f69c06e3bb7e751715bb8aa26526339fbc3a"
+  resolved "https://registry.yarnpkg.com/@formio/vue/-/vue-6.0.0-rc.1.tgz#7f4461a6bc70252984cad64079f0cb80c4c78499"
+  integrity sha512-vNGWoQZnKmBordknwhFYtgDdb4whAooFTyS9fwsBNtzzXmJz0njxMeEEMy75CIezwvoucNEIR2ZlrdrVmSLPGA==
   dependencies:
     "@ungap/structured-clone" "^1.2.0"
 
@@ -2110,9 +2105,9 @@ lodash.merge@^4.6.2:
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+  version "4.17.23"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
+  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
 
 lru-cache@^5.1.1:
   version "5.1.1"
